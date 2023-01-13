@@ -1,0 +1,50 @@
+.background {
+  background-color: #212529;
+  height: 100vh;
+  background-image: url("../../assets/img/illustration.svg");
+  background-repeat: no-repeat;
+  background-position: 45vw;
+  background-size: 75vh;
+  display: flex;
+  align-items: center;
+}
+.landingPageDiv {
+  width: 347px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  text-align: left;
+  color: white;
+  margin-left: 15vw;
+}
+
+.landingPageDiv button {
+  width: 241px;
+}
+
+.landingPageDiv h1 {
+  font-size: 38px;
+}
+
+.landingPageDiv img {
+  width: 122px;
+}
+
+@media (max-width: 1000px) {
+  .background {
+    background-position: 65vw;
+    display: flex;
+    align-items: center;
+  }
+  .landingPageDiv {
+    max-width: 90vh;
+
+    padding: 64px 16px;
+    margin: 0 auto;
+    background-color: #2125296e;
+  }
+
+  .landingPageDiv button {
+    width: 100%;
+  }
+}

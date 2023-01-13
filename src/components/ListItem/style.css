@@ -1,0 +1,61 @@
+.itemList {
+  width: 560px;
+  height: 87px;
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  animation: slidUp 700ms;
+}
+
+.Entrada {
+  border-left: 4px solid #03b898;
+}
+
+.Despesa {
+  border-left: 4px solid #e9ecef;
+}
+
+.divItem {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divItem h2 {
+  width: 300px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #212529;
+  text-align: left;
+}
+
+.itemList span {
+  font-size: 14px;
+  color: #212529;
+  width: fit-content;
+}
+
+.buttonClose {
+  background-image: url("../../assets/img/trash.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e9ecef;
+}
+
+@keyframes slidUp {
+  0% {
+    margin-top: 32px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}

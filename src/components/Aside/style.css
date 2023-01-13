@@ -1,0 +1,67 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aside {
+  width: 363px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 42px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.divValueAndType {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  margin-top: -10px;
+  font-size: 10px;
+  color: #868e96;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  margin-top: 8px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #e9ecef;
+  border: none;
+  padding: 0 12px;
+}
+
+.divValueAndType .input {
+  width: 128px;
+}
+
+.divTotal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #212529;
+}
+
+.colorMain {
+  color: #fd377e;
+}

@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  width: 560px;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.navigation h2 {
+  text-align: left;
+  margin-right: auto;
+  font-size: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+label:has(input:checked) {
+  background-color: #fd377e;
+  color: white;
+}
